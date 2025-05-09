@@ -1,0 +1,33 @@
+/* RTL specific styles */
+body {
+  font-family: 'Cairo', 'Tajawal', 'Arial', sans-serif;
+  text-align: right;
+}
+
+/* Fix some elements that might need specific RTL treatment */
+.rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* Adjust padding for RTL inputs */
+input, textarea {
+  text-align: right;
+}
+
+/* Custom scrollbar for better UX */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f5fe;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #98B6E4;
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #4A6FA5;
+}
